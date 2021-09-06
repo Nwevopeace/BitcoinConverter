@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/naira"
+            android:autofillHints="text" />
+
+        <TextView
+            android:id="@+id/Result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="@string/btc_equivalence"/>
+
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/switched"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/round_up"
+        android:layout_gravity="right"
+        android:checked="true"
+        android:layout_marginTop="20dp"
+        tools:ignore="RtlHardcoded,UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/convert"
+        tools:ignore="RtlHardcoded" />
+
+</LinearLayout>

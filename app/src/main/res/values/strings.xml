@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BitcoinConverter</string>
+    <string name="btc_equivalence">BTC Equivalence: %s</string>
+    <string name="naira">Naira</string>
+    <string name="convert">Convert</string>
+    <string name="round_up">Round Up?</string>
+</resources>
